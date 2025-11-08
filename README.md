@@ -26,24 +26,22 @@ Detectar transacciones fraudulentas a partir del historial de movimientos financ
 - F1-score  
 
 ## fraude-financiero/
-│
+fraude-financiero/
 ├── data/
 │   ├── raw/              # Datos originales (CSV, SQL)
 │   └── procesados/       # Datos limpios y listos para modelado
-│
 ├── notebooks/
 │   ├── 01_exploracion.ipynb      # Análisis exploratorio (EDA)
 │   ├── 02_preprocesamiento.ipynb # Limpieza y transformación
 │   └── 03_modelado.ipynb         # Entrenamiento y evaluación de modelos
-│
 ├── src/
 │   ├── data_preprocessing.py     # Funciones de limpieza
 │   ├── feature_engineering.py    # Creación de nuevas variables
 │   └── models.py                 # Entrenamiento y evaluación de ML
-│
 ├── requirements.txt              # Librerías necesarias
 ├── README.md                     # Documentación del proyecto
 └── .gitignore                    # Ignorar datos grandes y entornos
+
 
 ## Flujo de Trabajo
 1. **Exploración de Datos (EDA)**  
