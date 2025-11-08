@@ -92,5 +92,5 @@ Al identificar transacciones sospechosas en **tiempo real**, los bancos y fintec
 │   └── models.py              # Entrenamiento y evaluación de ML
 ├── requirements.txt           # Librerías necesarias
 ├── README.md                  # Documentación del proyecto
-└── .gitignore                 # Archivos temporales y entornos a excluir´´´´
+└── .gitignore                 # Archivos temporales y entornos a excluir´´´
 
