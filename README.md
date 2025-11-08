@@ -27,23 +27,6 @@ Detectar transacciones fraudulentas a partir del historial de movimientos financ
 
 ## Estructura del Proyecto
 
-## Estructura del Proyecto
-fraude-financiero/
-├── data/
-│   ├── raw/         # Datos originales (CSV, SQL)
-│   └── procesados/  # Datos limpios y listos para modelado
-├── notebooks/
-│   ├── 01_exploracion.ipynb   # Análisis exploratorio (EDA)
-│   ├── 02_preprocesamiento.ipynb  # Limpieza y transformación
-│   └── 03_modelado.ipynb      # Entrenamiento y evaluación de modelos
-├── src/
-│   ├── data_preprocessing.py  # Funciones de limpieza
-│   ├── feature_engineering.py # Creación de nuevas variables
-│   └── models.py              # Entrenamiento y evaluación de ML
-├── requirements.txt           # Librerías necesarias
-├── README.md                  # Documentación del proyecto
-└── .gitignore                 # Ignorar datos grandes y entornos
-
 ## Flujo de Trabajo
 1. **Exploración de Datos (EDA)**  
    - Analizar distribuciones de montos y frecuencias de transacciones.  
@@ -92,3 +75,22 @@ Esta solución permite a las instituciones financieras:
 - Aumentar la captación de nuevos clientes en un **5%** 📈  
 
 Al identificar transacciones sospechosas en **tiempo real**, los bancos y fintechs pueden **asignar recursos de manera eficiente para prevenir fraudes**, minimizar riesgos financieros y ofrecer un **servicio seguro y confiable**, fortaleciendo la confianza del cliente y optimizando la rentabilidad.
+
+## Estructura del Proyecto
+
+```fraude-financiero/
+├── data/
+│   ├── raw/         # Datos originales (CSV, SQL)
+│   └── procesados/  # Datos limpios y listos para modelado
+├── notebooks/
+│   ├── 01_exploracion.ipynb   # Análisis exploratorio (EDA)
+│   ├── 02_preprocesamiento.ipynb  # Limpieza y transformación
+│   └── 03_modelado.ipynb      # Entrenamiento y evaluación de modelos
+├── src/
+│   ├── data_preprocessing.py  # Funciones de limpieza
+│   ├── feature_engineering.py # Creación de nuevas variables
+│   └── models.py              # Entrenamiento y evaluación de ML
+├── requirements.txt           # Librerías necesarias
+├── README.md                  # Documentación del proyecto
+└── .gitignore                 # Ignorar datos grandes y entornos´´´´
+
