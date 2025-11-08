@@ -1,4 +1,4 @@
-# 💳 Detección-de-Fraude-en-Transacciones-Financieras
+# 💳 Detección de Fraude en Transacciones Financieras
 
 ## Descripción del Proyecto
 El fraude financiero es uno de los mayores desafíos para bancos y fintechs.  
