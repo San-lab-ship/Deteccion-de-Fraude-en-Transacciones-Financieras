@@ -61,12 +61,22 @@ fraude-financiero/
 4. **Detección en Tiempo Real**  
    - Implementación de alertas ante transacciones sospechosas.  
 
-## Visualizaciones y Títulos de Gráficas
+## Visualizaciones 
 - Histogramas de montos de transacciones – "Distribución de Montos"  
 - Heatmap de correlación – "Correlaciones entre Variables"  
 - Conteo de transacciones por ubicación – "Transacciones por Ubicación"  
 - Curva ROC – "Rendimiento del Modelo (AUC-ROC)"  
-- Matriz de Confusión – "Precisión vs Recall por Modelo"  
+- Matriz de Confusión – "Precisión vs Recall por Modelo"
+
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/80f7ed64-572d-404a-8ddb-cbb87da32666" />
+
+<img width="490" height="535" alt="image" src="https://github.com/user-attachments/assets/2c0ffe9d-90aa-4afd-888f-f4511d011a8c" />
+
+<img width="549" height="394" alt="image" src="https://github.com/user-attachments/assets/01c9d1eb-cc61-429e-90f0-cb7a1f8bf542" />
+
+<img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/002b3c62-bb44-4d63-a501-8aff001b3247" />
+
+<img width="452" height="394" alt="image" src="https://github.com/user-attachments/assets/49415a13-8287-47ca-87fe-5239fb6ea796" />
 
 ## Resultados y Conclusiones
 - Los modelos **Random Forest y XGBoost** muestran alta precisión en la detección de fraudes.  
