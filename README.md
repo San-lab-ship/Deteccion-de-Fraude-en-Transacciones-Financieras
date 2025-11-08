@@ -28,8 +28,6 @@ Detectar transacciones fraudulentas a partir del historial de movimientos financ
 ## Estructura del Proyecto
 
 ## Estructura del Proyecto
-
-**```plaintext
 fraude-financiero/
 ├── data/
 │   ├── raw/         # Datos originales (CSV, SQL)
@@ -44,7 +42,7 @@ fraude-financiero/
 │   └── models.py              # Entrenamiento y evaluación de ML
 ├── requirements.txt           # Librerías necesarias
 ├── README.md                  # Documentación del proyecto
-└── .gitignore                 # Ignorar datos grandes y entornos```**
+└── .gitignore                 # Ignorar datos grandes y entornos
 
 ## Flujo de Trabajo
 1. **Exploración de Datos (EDA)**  
